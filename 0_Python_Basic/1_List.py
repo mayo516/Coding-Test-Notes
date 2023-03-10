@@ -8,3 +8,9 @@ print(a)
 
 array = [ i for i in range(20) if i %2 ==1]
 print(array)
+
+# N X M 크기의 2차원 리스트 초기화
+n = 3
+m = 4
+array2 = [[0] * m for _ in range(n)]
+print(array2)  # [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
